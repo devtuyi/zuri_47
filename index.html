@@ -5,9 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration form</title>
+    <style type="text/css">
+    body {
+        text-align: center;
+        background-color: darkslateblue;
+    }
+    body > div { 
+        border: 2px solid blue;
+        background-color: floralwhite;
+        display: inline-flex;
+        align-content: flex-start;
+        width: max-content;
+        height: auto;
+        vertical-align: middle;
+        padding: 35px;
+    }
+    input, option {
+        border: olive 2px solid;
+        border-radius: 7px;
+    }
+    form > div {
+        padding: 5px 0;
+    }
+    </style>
 </head>
-<body style="text-align: center;">
-    <div style="border: 2px solid blue;">
+<body>
+    <div>
         <form method="POST" action="user_data.php">
             <div>
                 <label for="name">Name:</label>
